@@ -172,9 +172,10 @@ spgl.dt.dtHeadline <- function (id                   = integer(),
 
 #' Class spgl.dt.lsFileStr
 #'
-#' XXX
-#' @name spgl.dt.lsFileStr
-#' @rdname spgl.dt.lsFileStr
+#' This class covers 3 data.tables (dtDlDir, dtHeadlineFile & dtHeadline). With
+#' the help of these data.tables it's possible to picture the downloaded file
+#' structure which consists of download directories, headline files and
+#' headlines.
 #' @exportClass spgl.dt.lsFileStr
 #' @slot dtDlDir dtDlDir
 #' @slot dtHeadlineFile dtHeadlineFile
